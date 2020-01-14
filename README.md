@@ -1,4 +1,4 @@
-# Awesome Project Build with TypeORM
+# Basic example for how transaction works in typeorm with nodejs with typescript classes
 
 Steps to run this project:
 
