@@ -24,6 +24,8 @@ export default class MyCLass {
 
         //try to add 2nd user also same name,
         //then the database throws an error because of firstName is unique
+        //then transaction begin to rollback the data we added before using this transaction
+
 
         const student1 = new Student();
         student1.firstName = "Mafei";
