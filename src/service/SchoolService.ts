@@ -4,7 +4,7 @@ import SchoolDao from "../dao/SchoolDao";
 import Student from "../entity/Student";
 import StudentDao from "../dao/StudentDao";
 
-export default class MyCLass {
+export default class SchoolService {
     @Transaction({isolation: "SERIALIZABLE"})
     public async addSchoolWithStudent(@TransactionManager() manager: EntityManager) {
 
